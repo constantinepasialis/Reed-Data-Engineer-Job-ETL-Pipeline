@@ -10,5 +10,36 @@ The data is sourced from Reed's job listing portal, using web scraping technique
 **Transform** : The extracted data undergoes cleaning. Specific cleaning methods include:
 1. Removing duplicate values.
 2. Removing NaN values.
+
 **Load** : The cleansed data is loaded into a SQL database, where it is stored in a structured format.
 
+# Technologies used:
+**Programming Language** : Python
+
+**Libraries** :
+- Pandas
+- Numpy
+- Requests
+- Beautiful Soup
+- Time
+- Datetime
+- Psycopg2
+- Logging
+- Apache-airflow
+
+**Database** : PostgreSQL16
+
+**Orchestration** : Apache Airflow
+
+**Extra Tools** : Docker
+
+# Key Features :
+- Automated, scheduled ETL pipeline using Apache Airflow
+- Custom cleanse logic for better data quality
+
+# Benefits : 
+- Provides an up-to-date dataset of Data Engineer job listings
+
+# Future Improvements :
+- Add a dashboard using a tool like Tableau
+- Extend the pipeline to include job listings for other data-related roles such as Data Analyst and Machine Learning Engineer.
