@@ -36,6 +36,8 @@ def create_table(conn) :
                                                         job_type VARCHAR(200) NOT NULL, \
                                                         link VARCHAR(200) NOT NULL);')
         
+        cursor.execute('CREATE INDEX job_title_index ON "Reed_Jobs" (title);')
+        
         cursor.close()
         conn.close()
     except Exception as e :
