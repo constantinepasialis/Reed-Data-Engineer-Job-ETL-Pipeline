@@ -11,11 +11,11 @@ def extract() :
     try:
         df_results = pd.DataFrame(columns = ["title","company","salary","location","job_type","link"])
         
-        pd_title = pd.DataFrame() #
-        pd_company = pd.DataFrame() #
-        pd_salary = pd.DataFrame() #
-        pd_location = pd.DataFrame() #
-        pd_job_type = pd.DataFrame() #
+        pd_title = pd.DataFrame() 
+        pd_company = pd.DataFrame() 
+        pd_salary = pd.DataFrame() 
+        pd_location = pd.DataFrame() 
+        pd_job_type = pd.DataFrame()
         pd_link = pd.DataFrame()
         
         for i in range(1,max_pages) :
