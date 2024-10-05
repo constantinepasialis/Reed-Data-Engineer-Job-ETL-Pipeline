@@ -74,6 +74,5 @@ def extract() :
         log_into_file("error",e)
         
     df_results.columns = ["title", "company", "salary", "location", "job_type", "link"]
-    df_results.to_csv("project.csv")
     
     return df_results
