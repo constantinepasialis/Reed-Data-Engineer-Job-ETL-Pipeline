@@ -1,5 +1,5 @@
 # Reed-Data-Engineer-Job-ETL-Pipeline
-"Reed Data Engineer Job ETL Pipeline" is an automated ETL that extracts job listings for Data Engineer positions from Reed's job portal. The pipeline transforms the raw data by filtering and organizing job details such as job title, company name, location, salary, job type, link and then loads the structured information into a database.
+"Reed Data Engineer Job ETL Pipeline" is an automated ETL that extracts job listings for Data Engineer positions from Reed's job portal. The pipeline transforms the raw data by filtering and organising job details such as job title, company name, location, salary, job type, link and then loads the structured information into a database.
 # Objective :
 To extract job listings related to data engineering from Reed, process the data to extract useful information, and store it in a structured format.
 # Data source : 
