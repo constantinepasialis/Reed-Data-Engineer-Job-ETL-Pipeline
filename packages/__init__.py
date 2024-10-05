@@ -54,7 +54,6 @@ def etl_workflow():
     @task()
     def data_load(transformed_data):
         load(conn, transformed_data)
-    
 
     table_task = table_creation()
     extracted_data = data_extraction()
