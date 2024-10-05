@@ -21,7 +21,6 @@ The data is sourced from Reed's job listing portal, using web scraping technique
 - Numpy
 - Requests
 - Beautiful Soup
-- Time
 - Datetime
 - Psycopg2
 - Logging
