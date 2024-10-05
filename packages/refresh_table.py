@@ -5,7 +5,7 @@ from log import log_into_file
 
 def refresh_table() :
     try :
-        conn = psycopg2.connect(database = "ETL_Reed_Jobs", user = "etl_user", password = "Dadinos8162022!", host = "localhost", port = 5432)
+        conn = psycopg2.connect(database = "ETL_Reed_Jobs", user = "etl_user", password = "*****", host = "localhost", port = ****)
 
         cursor = conn.cursor()
 
