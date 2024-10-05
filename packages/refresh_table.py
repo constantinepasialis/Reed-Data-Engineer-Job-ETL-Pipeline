@@ -12,7 +12,6 @@ def refresh_table() :
         conn.autocommit = True
 
         cursor.execute('DELETE FROM "Reed_Jobs";')
-        cursor.execute('DROP INDEX job_title_index')
 
         cursor.execute('VACUUM;')
 
