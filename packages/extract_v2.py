@@ -19,7 +19,7 @@ def extract() :
         pd_link = pd.DataFrame()
         
         for i in range(1,max_pages) :
-            url = f"https://www.reed.co.uk/jobs/data-engineer-jobs?pageno={i}"
+            url = f"https://www.reed.co.uk/jobs/data-engineer-jobs-in-london?pageno={i}"
             request = r.get(url)
             soup = bs(request.text, "html.parser")
             
