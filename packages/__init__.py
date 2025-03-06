@@ -14,7 +14,7 @@ from load_to_sql import load
 #     conn_type="postgres",
 #     host="127.0.0.1",
 #     login="etl_user",
-#     password="Dadinos8162022!",
+#     password="*********",
 # )
 
 #CONNECTION HOOK
